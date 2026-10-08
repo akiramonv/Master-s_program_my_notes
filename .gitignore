@@ -21,3 +21,7 @@ data/raw/
 *.tmp
 desktop.ini
 Thumbs.db
+
+# Материалы преподавателей — только на ноутбуке и в OneDrive, на GitHub не загружаются
+*/Материалы/*
+!*/Материалы/README.md
