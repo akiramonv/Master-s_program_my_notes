@@ -1,0 +1,10 @@
+{
+    // Python и ноутбуки — из общего окружения магистратуры (оно вне OneDrive)
+    "python.defaultInterpreterPath": "C:\\Users\\User\\Code\\magistratura\\.venv\\Scripts\\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "jupyter.notebookFileRoot": "${fileDirname}",
+    "files.autoSave": "afterDelay",
+    "files.exclude": { "**/.gitkeep": true, "**/__pycache__": true, "**/.ipynb_checkpoints": true },
+    "markdown.preview.breaks": true,
+    "terminal.integrated.env.windows": { "MLFLOW_DISABLE_AGENT_HINT": "1" }
+}

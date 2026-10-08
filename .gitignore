@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Артефакты экспериментов
+mlruns/
+catboost_info/
+*.joblib
+
+# Большие сырые данные (храни ссылку, а не файл)
+data/raw/
+
+# Секреты
+.env
+
+# Временные файлы Windows и Office
+~$*
+*.tmp
+desktop.ini
+Thumbs.db
